@@ -18,7 +18,6 @@
             <div class="row">
                 <h3>Pregunta: {{$p->id}}</h3>
                 <label for="{{$p->id}}">{{ $p->Titulo_pregunta }}</label>
-                <input type="text" class="form-control col-2" id="{{$p->id}}">
                 <select name="" id="" class="form-select form-select-sm mb-3">
                     @foreach ($tipo_respuestas as $tr)
                         <option value="">{{$tr->titulo_tipo_respuesta}}</option>
